@@ -1,0 +1,16 @@
+Exemplo:
+Crie uma classe em Java chamada "Pessoa" com os atributos nome e idade.  
+A classe deve permitir acessar e modificar os dados usando getters e setters, garantindo que a idade seja sempre positiva.  
+Inclua também um método que retorne uma apresentação da pessoa em forma de String.  
+O código deve conter comentários e seguir boas práticas de programação orientada a objetos (POO).
+
+Agora faça o mesmo para:  
+Uma classe para gerenciar um projeto com as seguintes características:  
+  - Nome do projeto: "Aplicativo Mobile"  
+  - Orçamento: R$5000,00  
+  - Número de membros da equipe: 4  
+Requisitos da classe:  
+  - A classe deve permitir acessar e modificar os dados do projeto (getters e setters).  
+  - O orçamento e o número de membros devem sempre ser valores positivos (validação).  
+  - Deve existir um método para calcular o orçamento médio por membro (orçamento / número de membros).  
+  - O código deve conter comentários explicativos e seguir boas práticas de POO.  
