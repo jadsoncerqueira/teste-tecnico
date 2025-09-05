@@ -2,11 +2,11 @@ public class ItemEstoque {
     private String nome;
     private int quantidade;
 
-    // Construtor
+
     public ItemEstoque(String nome, int quantidadeInicial) {
         this.nome = nome;
         if (quantidadeInicial < 0) {
-            this.quantidade = 0; // Garante que nunca seja negativo
+            this.quantidade = 0; 
         } else {
             this.quantidade = quantidadeInicial;
         }
@@ -27,20 +27,20 @@ public class ItemEstoque {
         }
     }
 
-    // Método para exibir os dados do item
+
     public void exibirInformacoes() {
         System.out.println("Item: " + nome + ", Quantidade: " + quantidade);
     }
 
-    // Programa principal
+
     public static void main(String[] args) {
-        // Criando o item "Caneta Azul" com 50 unidades
+
         ItemEstoque item = new ItemEstoque("Caneta Azul", 50);
 
-        // Retirando 10 unidades
+
         item.retirar(10);
 
-        // Exibindo os dados
+
         item.exibirInformacoes();
     }
 }
